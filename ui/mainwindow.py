@@ -38,7 +38,7 @@ class MainWindow(QMainWindow):
         self.admin_id_input = QLineEdit("Administrator")
         form.addRow("관리자 ID", self.admin_id_input)
 
-        self.admin_pw_input = QLineEdit()
+        self.admin_pw_input = QLineEdit("7654321")
         self.admin_pw_input.setEchoMode(QLineEdit.Password)
         form.addRow("관리자 PW", self.admin_pw_input)
 
