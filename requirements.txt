@@ -1,0 +1,7 @@
+PySide6>=6.6
+playwright>=1.44
+pywin32>=306 ; platform_system == "Windows"
+psutil>=5.9
+
+# 설치 후 최초 1회 필수:
+#   playwright install chromium
